@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/499ceaa8f6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="custom.css" />
+</head>
+
+<body>
+  
+  <section class="hero_image">
+    <div class="headings">
+    <h1>HEALTH CARE</h1>
+        <h4>
+          “Time and health are two precious assets that we don't recognize and
+          appreciate until they have been depleted.”
+        </h4>
+      </div>
+    <div class="chat-bar-collapsible">
+      <button id="chat-button" type="button" class="collapsible">Hello Patient!
+        <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+      </button>
+
+      <div class="content">
+        <div class="full-chat-block">
+          <!-- Message Container -->
+          <div class="outer-container">
+            <div class="chat-container">
+              <!-- Messages -->
+              <div id="chatbox">
+                <h5 id="chat-timestamp"></h5>
+                <p id="botStarterMessage" class="botText"><span>Loading...</span>
+              </div>
+
+              <!-- User input box -->
+              <div class="chat-bar-input-block">
+                <div id="userInput">
+                  <input id="textInput" class="input-box" type="text" name="msg"
+                    placeholder="Tap 'Enter' to send a message">
+                  <p></p>
+                </div>
+
+                <div class="chat-bar-icons">
+                  <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart" onclick="heartButton()"></i>
+                  <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send" onclick="sendButton()"></i>
+                </div>
+              </div>
+
+              <div id="chat-bar-bottom">
+                <p></p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    
+        <!-- <span>Already a customer ?</span>
+        <form class="form_code">
+          <input
+            class="post_code"
+            type="text"
+            placeholder="email"
+          />
+          <input
+            class="post_code"
+            type="text"
+            placeholder="password"
+          />
+          <button type="submit">LOGIN</button>
+          <button type="submit">Signup</button>
+        </form> --> 
+
+  </section>
+
+  <section class="product">
+    <div class="product_item_list">
+      <img class="img-responsive image-resize" src="food3.jpg" alt="" />
+      <h3 class="product heading">EAT WELL!</h3>
+      <p>
+        Eating a healthy diet is not about strict limitations, staying
+        unrealistically thin, or depriving yourself of the foods you love.
+        Rather, it's about feeling great, having more energy, improving your
+        health, and boosting your mood.
+      </p>
+    </div>
+
+    <div class="product_item_list">
+      <img class="img-responsive image-resize" src="eat1.jpg" alt="" />
+      <h3 class="product heading">SLEEP WELL!!</h3>
+      <p>
+        Go to bed at the same time each night and get up at the same time each
+        morning, including on the weekends. Make sure your bedroom is quiet,
+        dark, relaxing, and at a comfortable temperature.
+      </p>
+    </div>
+
+    <div class="product_item_list">
+      <img class="img-responsive image-resize" src="do2.jpg" alt="" />
+      <h3 class="product heading">DO WELL!!!</h3>
+      <p>
+        By working efficiently, more can be produced with the same amount of
+        input (resources)(1). In short, achieving more for lower costs, a
+        higher return and less pressure. Efficiency means 'doing things in the
+        right way'. Two sorts of efficiency are often referred to, namely
+        static efficiency and dynamic efficiency.
+      </p>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="\design/response.js"></script>
+  <script src="\design/chat.js"></script>
+
+</body>
+</html>
